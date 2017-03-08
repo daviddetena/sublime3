@@ -7,6 +7,14 @@
 	[
 		"Boxy Theme",
 		"Boxy Theme Addon - Font Face",
-		"Boxy Theme Addon - Widget Font Size"
+		"Boxy Theme Addon - Widget Font Size",
+		"CSScomb",
+		"Emmet",
+		"HTML-CSS-JS Prettify",
+		"Package Control",
+		"phpfmt",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"SublimeCodeIntel"
 	]
 }
