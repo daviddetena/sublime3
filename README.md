@@ -1,7 +1,7 @@
 #Sublime 3
 
 ##First steps
-The first thing you'll need to do is to get PHP 7, MySQL, Python & Node.js installed in order to use some useful add-ons for Sublime 3.
+The first thing you'll need to do is to get PHP 7, MySQL, Python & [Node.js](https://docs.npmjs.com/getting-started/installing-node) installed in order to use some useful add-ons for Sublime 3.
 
 ##Tuning up Sublime 3
 Sublime has a [package control](https://packagecontrol.io) repository where you can find a lot of add-ons to boost ST capabilities. The following ones have been selected to improve productivity, including web, PHP and MySQL features:
