@@ -1,15 +1,14 @@
 #Sublime 3
 
 ##Considerations
-The content of this repository is located in Sublime user folder. The path to this folder may vary depending on the OS the software is installed in. 
+The content of this repository is located in Sublime user folder. The path to this folder may vary depending on the OS the software is installed. 
 
-This repository includes configurations that suit my preferences. You can copy the content of this repo to your Sublime user folder and modify to suit your needs.
+This repository includes configurations that suit my preferences. You can clone/copy the content of this repo to your Sublime user folder and modify to suit your needs.
 
 Sublime Text 3 comes with its own Python embedded interpreter that’s separate from your system’s Python interpreter (if available).
 
 Some Sublime plugins require to have [PHP](http://php.net/downloads.php) and [Node.js](https://docs.npmjs.com/getting-started/installing-node) installed on your system.
 
-You can view all the packages installed for this repo in **Package Control.sublime-settings** file.
 
 ##Running Sublime 3 from the command line
 Sublime Text includes a command-line helper called `subl`. Using the command-line helper, you can open files and folders and perform other actions from the command line.
@@ -22,7 +21,7 @@ Here you can find further info about [Sublime command-line helper](http://docs.s
 ##Tuning up Sublime 3
 Sublime has a [package control](https://packagecontrol.io) repository where you can find a lot of add-ons to boost ST capabilities.
 
-* **[Package Control](https://packagecontrol.io/)**: The very 1st you'll need to install for ST3. Here you can find its [installation instructions](https://packagecontrol.io/installation). Once installed, you can install/uninstall packages. Run **cmd + shift + p** on MacOS X (**ctrl + shift + p** on Windows/Linux) and type "install", select **Package Control : Install Package** option. Then type the package you want to install.
+* **[Package Control](https://packagecontrol.io/)**: The very first you'll need to install for ST3. Here you can find its [installation instructions](https://packagecontrol.io/installation). Once installed, you can install/uninstall packages. Run **cmd + shift + p** on MacOS X (**ctrl + shift + p** on Windows/Linux) and type "install", select **Package Control : Install Package** option. Then type the package you want to install.
 
 
 ###Themes
@@ -35,8 +34,9 @@ Sublime has a [package control](https://packagecontrol.io) repository where you 
 This repository includes a theme, **custom-php-dark.tmTheme**, for a quick look at the different variables, constants, functions... in PHP.
 
 
-###Add-ons
+###Plugins
 ---
+In order to boost your productivity, you should install (some of) the following packages:
 
 * **[Sublime Linter](https://packagecontrol.io/packages/SublimeLinter)**: It's a SB3 framework itself for code hinting. *Linters*, like *JSHint*, must be installed separatelly. Your code can be linted as you type (before saving your changes) and any errors are highlighted immediately.
 
@@ -59,6 +59,8 @@ This repository includes a theme, **custom-php-dark.tmTheme**, for a quick look 
 * **[PHPfmt](https://github.com/nanch/phpfmt_stable/)**: PHP code scanner and analyzer for code intelligence within PHP projects.
 
 * **[CSSComb](https://github.com/csscomb/sublime-csscomb/)**: Sublime plugin for CSScomb—CSS coding style formatter.
+
+You can view all the packages installed for this repo in the **Package Control.sublime-settings** file and install the ones you need with **Package Control**.
 
 
 ## Key Bindings
