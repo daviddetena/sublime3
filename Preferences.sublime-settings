@@ -1,0 +1,46 @@
+{
+	"auto_complete_delay": 150,
+	"auto_match_enabled": true,
+	"color_scheme": "Packages/User/custom-php-dark.tmTheme",
+	"fold_buttons": true,
+	"font_face": "Menlo",
+	"highlight_line": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"jsdocs_align_tags": "no",
+	"rulers":
+	[
+		80,
+		120
+	],
+	"scroll_speed": 1.0,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"tab_completion": true,
+	"theme": "Boxy Tomorrow.sublime-theme",
+	"theme_accent_tangerine": true,
+	"theme_autocomplete_item_selected_colored": true,
+	"theme_font_md": true,
+	"theme_icons_materialized": true,
+	"theme_quick_panel_item_selected_colored": true,
+	"theme_quick_panel_size_xs": true,
+	"theme_scrollbar_colored": true,
+	"theme_scrollbar_line": true,
+	"theme_sidebar_close_always_visible": true,
+	"theme_sidebar_disclosure": true,
+	"theme_sidebar_folder_atomized": true,
+	"theme_sidebar_heading_bold": true,
+	"theme_size_xs": true,
+	"theme_tab_selected_underlined": true,
+	"theme_tab_size_md": true,
+	"theme_unified": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"ui_big_tabs": false,
+	"ui_fix_tab_labels": true,
+	"ui_font_size_small": true,
+	"ui_separator": false,
+	"word_wrap": false
+}

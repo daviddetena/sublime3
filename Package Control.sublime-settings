@@ -1,0 +1,44 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"All Autocomplete",
+		"ApacheConf.tmLanguage",
+		"Boxy Theme",
+		"Boxy Theme Addon - Font Face",
+		"Boxy Theme Addon - Widget Font Size",
+		"Case Conversion",
+		"ChangeQuotes",
+		"ColorSchemeEditor",
+		"Compare Side-By-Side",
+		"CSScomb",
+		"DocBlockr",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"GotoDocumentation",
+		"HTML-CSS-JS Prettify",
+		"Indent XML",
+		"INI",
+		"JsFormat",
+		"MoveTab",
+		"Package Control",
+		"PackageResourceViewer",
+		"php-snippets",
+		"phpfmt",
+		"Pretty JSON",
+		"Quick File Move",
+		"Sass",
+		"ScopeAlways",
+		"SqlBeautifier",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-php",
+		"TWiki"
+	]
+}
