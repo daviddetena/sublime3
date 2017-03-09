@@ -1,10 +1,26 @@
 #Sublime 3
 
-##First steps
-The first thing you'll need to do is to get PHP 7, MySQL, Python & [Node.js](https://docs.npmjs.com/getting-started/installing-node) installed in order to use some useful add-ons for Sublime 3.
+##Considerations
+The content of this repository is located in Sublime user folder. The path to this folder may vary depending on the OS the software is installed in. 
+
+This repository includes configurations that suit my preferences. You can copy the content of this repo to your Sublime user folder and modify to suit your needs.
+
+Sublime Text 3 comes with its own Python embedded interpreter that’s separate from your system’s Python interpreter (if available).
+
+Some Sublime plugins require to have [PHP](http://php.net/downloads.php) and [Node.js](https://docs.npmjs.com/getting-started/installing-node) installed on your system.
+
+You can view all the packages installed for this repo in **Package Control.sublime-settings** file.
+
+##Running Sublime 3 from the command line
+Sublime Text includes a command-line helper called `subl`. Using the command-line helper, you can open files and folders and perform other actions from the command line.
+
+`subl` must be included in your `PATH` before it can be used. To put `subl` on your `PATH`, you may need to add directories to `PATH` or use [symbolic links](http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/).
+
+Here you can find further info about [Sublime command-line helper](http://docs.sublimetext.info/en/latest/command_line/command_line.html).
+
 
 ##Tuning up Sublime 3
-Sublime has a [package control](https://packagecontrol.io) repository where you can find a lot of add-ons to boost ST capabilities. The following ones have been selected to improve productivity, including web, PHP and MySQL features.
+Sublime has a [package control](https://packagecontrol.io) repository where you can find a lot of add-ons to boost ST capabilities.
 
 * **[Package Control](https://packagecontrol.io/)**: The very 1st you'll need to install for ST3. Here you can find its [installation instructions](https://packagecontrol.io/installation). Once installed, you can install/uninstall packages. Run **cmd + shift + p** on MacOS X (**ctrl + shift + p** on Windows/Linux) and type "install", select **Package Control : Install Package** option. Then type the package you want to install.
 
@@ -35,6 +51,68 @@ Sublime has a [package control](https://packagecontrol.io) repository where you 
 
 * **[SidebarEnhancements](https://packagecontrol.io/packages/SideBarEnhancements)**: It provides a few new things in the Sidebar menu including New File Creation in the current project folder, Moving File and Folder, Duplicating File and Folder, Open in Finder and Browser, Refresh, and a bunch more.
 
+* **[Quick File Move](https://github.com/wulftone/sublime-text-quick-file-move)**: Plugin for renaming/moving selected file.
+
 * **[PHPfmt](https://github.com/nanch/phpfmt_stable/)**: PHP code scanner and analyzer for code intelligence within PHP projects.
 
 * **[CSSComb](https://github.com/csscomb/sublime-csscomb/)**: Sublime plugin for CSScomb—CSS coding style formatter.
+
+
+## Key Bindings
+
+The following key-bindings are taken from Sublime Text for MacOS X. Replace *cmd* key with *ctrl* when needed for Windows & Linux.
+
+### Default (OSX).sublime-keymap - Default
+
+Here are some common shortcuts defined by SublimeText by default:
+
+* **cmd + shift + n**: Open new window
+* **cmd + shift + n**: Close a window
+* **cmd + n**: New file
+* **cmd + s**: Save file
+* **cmd + w**: Close file
+* **cmd + o**: Prompt open
+* **cmd + p**: Go to file
+* **cmd + ctrl + p**: Select workspace
+* **cmd + shift + p**: Command palette
+* **cmd + r**: Go to function definition
+* **ctrl + g**: Go to line X in file
+* **cmd + f**: Find
+* **cmd + g**: Find next
+* **cmd + shift + g**: Find previous
+* **cmd + ctrl + up**: Swap line up
+* **cmd + ctrl + down**: Swap line down
+* **cmd + alt + left**: Select previous file in tab bar
+* **cmd + alt + right**: Select next file in tab bar
+* **F12**: Go to definition
+
+The complete list of shortcuts for MacOS X can be found on **[Sublime docs](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_osx.html)**.
+
+### Add-ons Keybindings
+---
+* **MoveTab**
+	* **cmd+alt+shift+left**: Move current tab to the left.
+	* **cmd+alt+shift+right**: Move current tab to the right.
+
+### Default (OSX).sublime-keymap - User
+---
+The following shortcuts are defined in the User's ***.sublime-keymap*** file, and were chosen to suit my needs. Some of them are related to specific add-ons, so you must have them installed. Other plugins may have their own key bindings (see *.sublime-keymap* in the package folder). Feel free to change these key bindings your way:
+
+* **alt + p**: Prompt select workspace.
+* **alt + up**: Multi-select previous lines.
+* **alt + down**: Multi-select next lines.
+* **alt + shift + r**: Refresh folders.
+* **alt + shift + w**: Close all files.
+* **alt + shift + s**: Convert to snake_case.
+* **alt + shift + c**: Convert to camelCase.
+* **shift + delete**: Right delete.
+* **cmd + shift + '**: Toggle between single/double quotes.
+* **cmd + shift + c**: Toggle comment (single line).
+* **cmd + shift + up**: Swap line up.
+* **cmd + shift + down**: Swap line down.
+* **F1**: Go to the documentation.
+* **F3**: Rename (or move) current file *(requires 'Quick move file')*.
+* **F8**: Toggle side bar.
+* **F9**: Toggle tab menu.
+* **F10**: Go to selected text *(requires 'goto _ selected _ text.py' included)*.
+* **ctrl + F11**: Format code properly.
