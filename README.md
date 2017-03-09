@@ -93,7 +93,7 @@ Here are some common shortcuts defined by SublimeText by default:
 
 The complete list of shortcuts for MacOS X can be found on **[Sublime docs](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_osx.html)**.
 
-### Add-ons Keybindings
+### Plugin Key bindings
 ---
 * **MoveTab**
 	* **cmd+alt+shift+left**: Move current tab to the left.
@@ -115,12 +115,12 @@ The following shortcuts are defined in the User's ***.sublime-keymap*** file, an
 * **cmd + shift + c**: Toggle comment (single line).
 * **cmd + shift + up**: Swap line up.
 * **cmd + shift + down**: Swap line down.
-* **F1**: Go to the documentation.
+* **F1**: Go to the documentation *(requires 'GoTo Documentation')*.
 * **F3**: Rename (or move) current file *(requires 'Quick move file')*.
 * **F8**: Toggle side bar.
 * **F9**: Toggle tab menu.
 * **F10**: Go to selected text *(requires 'goto _ selected _ text.py' included)*.
-* **ctrl + F11**: Format code properly.
+* **ctrl + F11**: Format code properly *(requires 'JsFormat')*.
 
 
 ##Acknowledges
