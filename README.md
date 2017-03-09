@@ -32,6 +32,9 @@ Sublime has a [package control](https://packagecontrol.io) repository where you 
 	* **[Boxy font-face add-on](https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Font%20Face)**: Change the font face of the Sublime Text UI. 
 	* **[Boxy widget font](https://packagecontrol.io/packages/Boxy%20Theme%20Addon%20-%20Widget%20Font%20Size)**: Change the font size of the panel input and console text (to 13 px by default).
 
+This repository includes a theme, **custom-php-dark.tmTheme**, for a quick look at the different variables, constants, functions... in PHP.
+
+
 ###Add-ons
 ---
 
@@ -116,3 +119,7 @@ The following shortcuts are defined in the User's ***.sublime-keymap*** file, an
 * **F9**: Toggle tab menu.
 * **F10**: Go to selected text *(requires 'goto _ selected _ text.py' included)*.
 * **ctrl + F11**: Format code properly.
+
+
+##Acknowledges
+Special thanks to **[Carlos Gant](https://github.com/adael)**. Included custom PHP theme for Sublime is based on one from him.
