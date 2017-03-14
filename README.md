@@ -1,6 +1,6 @@
-#Sublime 3
+# Sublime 3
 
-##Considerations
+## Considerations
 The content of this repository is located in Sublime user folder. The path to this folder may vary depending on the OS the software is installed. 
 
 This repository includes configurations that suit my preferences. You can clone/copy the content of this repo to your Sublime user folder and modify to suit your needs.
@@ -10,7 +10,7 @@ Sublime Text 3 comes with its own Python embedded interpreter that’s separate 
 Some Sublime plugins require to have [PHP](http://php.net/downloads.php) and [Node.js](https://docs.npmjs.com/getting-started/installing-node) installed on your system.
 
 
-##Running Sublime 3 from the command line
+## Running Sublime 3 from the command line
 Sublime Text includes a command-line helper called `subl`. Using the command-line helper, you can open files and folders and perform other actions from the command line.
 
 `subl` must be included in your `PATH` before it can be used. To put `subl` on your `PATH`, you may need to add directories to `PATH` or use [symbolic links](http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/).
@@ -18,13 +18,13 @@ Sublime Text includes a command-line helper called `subl`. Using the command-lin
 Here you can find further info about [Sublime command-line helper](http://docs.sublimetext.info/en/latest/command_line/command_line.html).
 
 
-##Tuning up Sublime 3
+## Tuning up Sublime 3
 Sublime has a [package control](https://packagecontrol.io) repository where you can find a lot of add-ons to boost ST capabilities.
 
 * **[Package Control](https://packagecontrol.io/)**: The very first you'll need to install for ST3. Here you can find its [installation instructions](https://packagecontrol.io/installation). Once installed, you can install/uninstall packages. Run **cmd + shift + p** on MacOS X (**ctrl + shift + p** on Windows/Linux) and type "install", select **Package Control : Install Package** option. Then type the package you want to install.
 
 
-###Themes
+### Themes
 ---
 
 * **[Boxy Theme](https://github.com/ihodev/sublime-boxy)**: A full-featured theme manager for SB3.
@@ -34,7 +34,7 @@ Sublime has a [package control](https://packagecontrol.io) repository where you 
 This repository includes a theme, **custom-php-dark.tmTheme**, for a quick look at the different variables, constants, functions... in PHP.
 
 
-###Plugins
+### Plugins
 ---
 In order to boost your productivity, you should install (some of) the following packages:
 
@@ -123,5 +123,5 @@ The following shortcuts are defined in the User's ***.sublime-keymap*** file, an
 * **ctrl + F11**: Format code properly *(requires 'JsFormat')*.
 
 
-##Acknowledges
+## Acknowledges
 Special thanks to **[Carlos Gant](https://github.com/adael)**. Included custom PHP theme for Sublime is based on one from him.
