@@ -60,7 +60,9 @@ In order to boost your productivity, you should install (some of) the following 
 
 * **[CSSComb](https://github.com/csscomb/sublime-csscomb/)**: Sublime plugin for CSScomb—CSS coding style formatter.
 
-You can view all the packages installed for this repo in the **Package Control.sublime-settings** file and install the ones you need with **Package Control**.
+* **[DashDoc](https://github.com/farcaller/DashDoc)**: Sublime plugin for app **Dash**. When installed, just type ```cmd+h``` to go to documentation in Dash.
+
+You can view all the packages installed for this repo in the **Package Control.sublime-settings** file and install the ones you need with **Package Control**. Remember to install the packages in this file or delete the ones that you don't need.
 
 
 ## Key Bindings
